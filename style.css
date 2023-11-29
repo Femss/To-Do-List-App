@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, grey, white);
+}
+#wrapper{
+    width: 36%;
+    margin: 0 auto;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+    padding: 50px;
+    color: white;
+    background: radial-gradient(gray, black);
+    border-radius: 10px;
+}
+
+#wrapper h1{
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+#single-task{
+    width: 353px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+button{
+    background: linear-gradient(45deg, white, gray);
+    border: none;
+    color: white;
+    padding: 13px 18px;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
+.task{
+  margin-bottom: 5px;  
+  margin-top: 20px;
+  background: gray;
+  color: black;
+  list-style: none;
+  padding: 0 15px;
+  line-height: 35px;
+  border-radius: 10px;
+}
+
+.task input[type="checkbox"]{
+    display: none;
+}
+
+.task .delete {
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0;
+    float: right;
+}
